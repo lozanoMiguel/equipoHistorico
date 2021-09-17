@@ -1,4 +1,4 @@
-# equipoHistorico
+# tuOnceIdeal
 Este es un proyecto de una web donde puedes armar tu equipo histórico de la selección nacional argentina de fútbol
 
 El proyecto se basa en una una web donde el usuario podra armar su 11 de jugadores ideales de la historia de la seleccion Argentina de futbol. La web consta de 3 elementos al ingresar en la misma
