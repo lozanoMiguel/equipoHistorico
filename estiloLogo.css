@@ -1,0 +1,12 @@
+.logo{
+	height: 500px;
+	width: 400px;
+	align-self: center;
+	justify-self: center;
+}
+
+.logo img{
+	height: 500px;
+	width: 400px;
+	object-fit: cover;
+}

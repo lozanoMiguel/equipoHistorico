@@ -1,0 +1,84 @@
+.tabla{
+	align-self: start;
+	justify-self: center;
+	display: grid;
+	grid-template-columns: 576px;
+	grid-template-rows: repeat(23, 25px);
+	border: 2px solid #323535;
+}
+
+.casillaTabla{
+	display: grid;
+	grid-template-columns: repeat(3, 192px);
+}
+
+.itemCasilla{
+	border: 1px solid #4E5252;
+	text-align: center;
+	padding: 3px;
+	font-size: 15px;
+	display: grid;
+}
+
+.formacionContainer{
+	height: 150px;
+	width: 400px;
+	align-self: end;
+	justify-self: center;
+	text-align: center;
+}
+
+.formacionContainer div{
+	display: grid;
+	grid-template-rows: 40px 40px;
+	grid-template-columns: 200px 200px;
+}
+
+.btnFormacion{
+	height: 40px;
+	width: 145px;
+	border: none;
+	background: transparent;
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+}
+
+.btnFormacion:hover{
+	color:#525858; 
+}
+
+.btnFormacion:first-child{
+	align-self: start;
+	justify-self: start;
+}
+
+btnFormacion:nth-child(3){
+	align-self: start;
+	justify-self: end;
+}
+
+.btnFormacion:nth-child(2){
+	align-self: start;
+	justify-self: end;
+}
+
+.btnFormacion:last-child{
+	align-self: end;
+	justify-self: end;
+}
+
+.btnJugador{
+	border: none;
+	background: transparent;
+	height: 18px;
+	width: 150;
+	align-self: center;
+	justify-self: center;
+	font-family: 'Rubik', sans-serif;
+	font-size: 17px;
+}
+
+.btnJugador:hover{
+	color:#4B4B4B; 
+}
+
