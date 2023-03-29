@@ -5,21 +5,32 @@ body{
 
 .container{
 	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: repeat(1,600px);
-	grid-template-rows: repeat(3,750px);
+	grid-gap: 12px;
+	
 }
 
 .itemContainer{
 	display: grid;
 }
 
-@media screen and (min-width: 1200px) AND (max-width: 1800px){
+/*@media(max-width: 970px){
 	.container{
-		grid-template-columns: repeat(2, 600px);
+		border: 5px solid red;
+		
+	}
+}
+
+@media(max-width: 450px){
+	.container{
+		background-color: blue;
+	}
+}*/
+
+ @media screen and (min-width: 1200px) AND (max-width: 1720px){
+	.container{
+		grid-template-columns: repeat(2, 50%);
 		grid-template-rows: repeat(2, 750px);
 	}
-
 	.itemContainer:nth-child(3){
 		grid-column: 1/3;
 	}

@@ -14,10 +14,10 @@
 
 .itemCasilla{
 	border: 1px solid #4E5252;
-	text-align: center;
-	padding: 3px;
 	font-size: 15px;
-	display: grid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .formacionContainer{
